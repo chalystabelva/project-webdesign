@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    background-color: #f7f4ed;
+}
+a{
+    text-decoration: none;
+}
+
+/*navbar*/
+
+.navbar{
+    position: fixed;
+    width: 100%;
+}
+
+.nav-container{
+    background-color: #f7f4ed;
+    box-shadow: 0 5px 15px #0000000f;
+}
+
+.nav-logo a{
+    color: #75665f;
+    font-family: "playfair display", sans-serif;
+}
+
+.nav-top{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px 0 40px;
+}
+
+.nav-icon i{
+    color: #312019;
+}
+.profile{
+    width: 130px;
+    height: 25px;
+    background-color: #ffffff;
+    color: #000000;
+    border: #312019 solid 2px;
+    font-family: "lato", sans-serif;
+}
+.profile:hover{
+    background-color: #f7f4ed;
+    color: #ad958a;
+    border: #ad958a solid 2px;
+}
+
+.nav-bottom{
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+.nav-menu ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    justify-content: center;
+    font-family: "open sans", sans-serif;
+}
+.nav-menu a{
+    color: #75665f;
+}
+
+
+/*best seller*/
+
+.bestsell-container{
+    text-align: center;
+    padding: 20px;
+    padding-top: 200px;
+}
+.bestsell-container h1{
+    font-size: 35px;
+}
+
+.bestsell-product{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.bestsell-section{
+    background-color: #eeded6;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px #0000000f;
+    text-align: left;
+}
+.bestsell-section img, h4, p{
+    margin: 20px;
+}
+
+.products{
+    height: 200px;
+    border-radius: 10px;
+}
+.cosrx-fw-section{
+    width: 210px;
+}
+

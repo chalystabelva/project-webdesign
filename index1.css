@@ -1,0 +1,281 @@
+body{
+    margin: 0;
+    background-color: #f7f4ed;
+}
+a{
+    text-decoration: none;
+}
+
+
+/*navbar*/
+
+.navbar{
+    position: fixed;
+    width: 100%;
+}
+
+.nav-container{
+    background-color: #f7f4ed;
+    box-shadow: 0 5px 15px #0000000f;
+}
+
+.nav-logo a{
+    color: #75665f;
+    font-family: "playfair display", sans-serif;
+}
+
+.nav-top{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px 0 40px;
+}
+
+.nav-icon i{
+    color: #312019;
+}
+.profile{
+    width: 130px;
+    height: 25px;
+    background-color: #ffffff;
+    color: #000000;
+    border: #312019 solid 2px;
+    font-family: "lato", sans-serif;
+}
+.profile:hover{
+    background-color: #f7f4ed;
+    color: #ad958a;
+    border: #ad958a solid 2px;
+}
+
+.nav-bottom{
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+.nav-menu ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    justify-content: center;
+    font-family: "open sans", sans-serif;
+}
+.nav-menu a{
+    color: #75665f;
+}
+
+
+/*content*/
+
+.heading-btn{
+    background-image: url(landing\ img.png);
+    background-repeat: no-repeat;
+    height: 450px;
+    background-size: cover;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    font-family: "playfair display", sans-serif;
+    padding-top: 300px;
+}
+.shopnow-btn{
+    width: 130px;
+    height: 30px;
+    background-color: white;
+    color: #312019;
+    border: #312019 solid 2px;
+    font-family: "lato", sans-serif;
+
+}
+.shopnow-btn:hover{
+    background-color: transparent;
+    color: #ad958a;
+    border: #ad958a solid 2px;
+}
+
+
+/*why us content*/
+
+.why-container{
+    background-color: #ad958a;
+    padding: 20px 0 20px 0 ;
+    color: white;
+}
+.why-container h1{
+    text-align: center;
+    font-family: "playfair display", sans-serif;
+}
+.why-container ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    gap: 200px;
+    font-size: 17px;
+    padding-top: 30px;
+    font-family: "open sans", sans-serif;
+}
+
+
+/*best seller*/
+
+.bestsell-container{
+    text-align: center;
+    padding: 20px;
+    padding-top: 100px;
+}
+.bestsell-container h1{
+    font-size: 35px;
+}
+
+.bestsell-product{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.bestsell-section{
+    background-color: #eeded6;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px #0000000f;
+    text-align: left;
+}
+.bestsell-section img, h4, p{
+    margin: 20px;
+}
+
+.products{
+    height: 200px;
+    border-radius: 10px;
+}
+.cosrx-fw-section{
+    width: 210px;
+}
+
+
+
+/*reviews*/
+
+.review-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.review-heading{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.review-box-section{
+    background-color: #ffffff;
+    width: 300px;
+    box-shadow: 5px 5px 15px #0000000f;
+    border-radius: 16px;
+    padding: 10px;
+}
+.review{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.name-star{
+    display: flex;
+}
+
+
+/*form*/
+
+.form-container{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    
+}
+.form-section{
+    align-items: center;
+    justify-content: center;
+    padding: 50px 50px 50px 50px;
+}
+.contact-section{
+    text-align: center;
+}
+
+.enter-name-section{
+    display: flex;
+}
+.enter-name-section input{
+    width: 600px;
+    height: 30px;
+}
+
+.email-section{
+    padding-top: 20px;
+}
+.email-section input{
+    width: 100%;
+    height: 30px;
+}
+
+.textarea-section{
+    padding-top: 20px;
+}
+.textarea-section textarea{
+    width: 100%;
+    height: 60px;
+}
+
+
+/*footer*/
+
+.footer-section{
+    background-color: #ad958a;
+    padding: 40px 50px 100px 50px;
+    flex-wrap: wrap;
+}
+
+.footer-logo{
+    font-size: 20px;
+    margin-top: -5px;
+}
+
+.contact-logo{
+    padding-top: 10px;
+    font-size: 20px;
+}
+.contact-logo ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-left: -40px;
+}
+.contact-logo i{
+    color: black;
+}
+
+.footer-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.links-section ul{
+    list-style: none;
+    margin-left: -40px;
+}
+.links-section a{
+    color: #000000;
+}
+
+.help-section ul{
+    list-style: none;
+    margin-left: -40px;
+}
+.help-section a{
+    color: #000000;
+}
